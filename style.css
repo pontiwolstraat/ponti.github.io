@@ -44,7 +44,7 @@ p {
 svg {
     width: 40%;
     left: 48px;
-    transform: translate(-30%, 25%);
+    transform: translate(0%, 25%);
 }
 
 path.cls-1 {
