@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Akrobat ExtraBold;
+  font-weight: 900;
+  src: url(Akrobat-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: Akrobat Regular;
+  font-weight: 900;
+  src: url(Akrobat-Regular.woff);
+}
+
+@font-face {
+  font-family: Akrobat Bold;
+  font-weight: 900;
+  src: url(Akrobat-Bold.woff);
+}
+
+body {
+	font-family: Akrobat Bold;
+	font-size: 1.6em;
+	line-height: 1.25;
+	
+	background-color: #ffffff;
+    color: #000000;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+p {
+  position: fixed;
+  top: 20%;
+  right: 48px;
+  z-index: 1;
+  width: 35%;
+  align-items: center;
+  justify-content: center;
+  padding: 3% 8% 2% 0%;
+  margin: 0;
+  text-align: justify;
+}
+
+svg {
+    width: 40%;
+    left: 48px;
+    transform: translate(-30%, 25%);
+}
+
+path.cls-1 {
+    top: 25%;
+}
+
+
+b {
+  font-family: Akrobat ExtraBold;
+}
+
+a {
+  position: fixed;
+  top: 48px;
+  right: 48px;
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+        align-items: center;
+    }
+    
+    p {
+        top: 45%;
+        right: 0;
+        width: 85%;
+    }
+
+    svg {
+        width: 60%;
+        left: 0;
+        transform: translate(8%, 20%);
+    
+    }
+
+    
+}
